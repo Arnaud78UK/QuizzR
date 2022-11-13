@@ -6,7 +6,7 @@ var appName = '${prefix}-webapp'
 var logAnalyticsName = '${prefix}loganalytics'
 var signalRName = '${prefix}signalr'
 var questionSetTableName = 'questionsets'
-param storageAccountName string = '${prefix}store${uniqueString(''ag78uk}'
+param storageAccountName string = '${prefix}store${uniqueString('ag78uk'}'
 
 param workbookDisplayName string = 'Quiz Analysis Workbook'
 var workbookType = 'workbook'
