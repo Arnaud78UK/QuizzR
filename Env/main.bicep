@@ -1,4 +1,4 @@
-param prefix string = 'AgrQuiz'
+param prefix string = 'Agr-Quiz'
 
 var appInsightsName = '${prefix}-appinsights'
 var appPlanName = '${prefix}-linux-appplan'
