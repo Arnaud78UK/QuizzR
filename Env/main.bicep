@@ -1,4 +1,4 @@
-param prefix string = 'agrquiz'
+param prefix string = 'agr'
 
 var appInsightsName = '${prefix}-appinsights'
 var appPlanName = '${prefix}-linux-appplan'
@@ -6,7 +6,7 @@ var appName = '${prefix}-webapp'
 var logAnalyticsName = '${prefix}loganalytics'
 var signalRName = '${prefix}signalr'
 var questionSetTableName = 'questionsets'
-param storageAccountName string = '${prefix}store${uniqueString('ag78uk'}'
+param storageAccountName string = '${prefix}store${uniqueString(resourceGroup().id)}'
 
 param workbookDisplayName string = 'Quiz Analysis Workbook'
 var workbookType = 'workbook'
