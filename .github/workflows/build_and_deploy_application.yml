@@ -44,8 +44,8 @@ jobs:
     env:
       LOCATION: uksouth
       RESOURCEGROUP: quizzr
-      PREFIX: quizzr
-      APPNAME: quizzr-webapp
+      PREFIX: agr
+      APPNAME: agrquizzr
     steps:
     - name: Download a Build Artifact (Website)
       uses: actions/download-artifact@v2.1.0
